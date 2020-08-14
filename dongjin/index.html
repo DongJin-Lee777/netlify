@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My one page web</title>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/index.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    </head>
+    <body>
+        <header>
+            <div id="header">
+                <ul id="skillList">
+                    <li><i class="fab fa-html5"></i></li>
+                    <li><i class="fab fa-css3-alt"></i></li>
+                    <li><i class="fab fa-js-square"></i></li>
+                    <li><i class="fab fa-node"></i></li>
+                    <li><i class="fab fa-java"></i></li>
+                    <li><i class="fas fa-database"></i></li>
+                </ul>
+                <h5 id="name_ko">O O O</h5>
+                <h5 id="name_en">Dong Jin Lee</h5>
+            </div>
+        </header>
+        <div id="section_board">
+            <section id="section_career">
+                <ul>
+                    <li class="section_title">Creer</li>
+                    <li>
+                        <time>2015년 3월</time> ~ <br>
+                        <span class="school">영진전문대학교</span>
+                        <span class="major">컴퓨터정보계열</span>
+                        <span class="class">웹데이터베이스전공</span>
+                        <span class="status">재학중</span>
+                    </li>
+                    <li>
+                        <time>2012년 3월</time> ~ <time>2015년 2월</time><br>
+                        <span class="school">OOO고등학교</span>
+                        <span class="status">졸업</span>
+                    </li>
+                    <li>
+                        <time>2009년 3월</time> ~ <time>2012년 2월</time><br>
+                        <span class="school">OO중학교</span>
+                        <span class="status">졸업</span>
+                    </li>
+                </ul>
+            </section>
+            <section id="section_projects">
+                <p class="section_title">Projects</p>
+                <div id="img_slider1">
+                    <div id="slider-div1">
+                        <div><img src="images/web01.JPG"><br><a href="#">https://www.????</a></div>
+                        <div><h3>2</h3></div>
+                        <div><h3>3</h3></div>
+                        <div><h3>4</h3></div>
+                    </div>
+                </div>
+            </section>
+            <section id="section_function">
+                <p class="section_title">Functions</p>
+                <div id="func_selector">
+                    <ul>
+                        <li><div id="1" class="selector">스크롤 이벤트</div></li>
+                        <li><div id="2" class="selector">메뉴버튼</div></li>
+                        <li><div id="3" class="selector">슬라이드</div></li>
+                    </ul>
+                </div>
+                <div id="func_contain">
+                    <!-- 기능1 : 스크롤이벤트 -->
+                    <div id="func_contain_1" class="func_contain action">
+                        <p class="scroll_text" data-aos="fade-right" data-aos-delay="50">Scroll Event</p><br>
+                        <p class="scroll_text" data-aos="fade-left" data-aos-delay="100">Scroll Event</p><br>
+                        <p class="scroll_text" data-aos="flip-left" data-aos-delay="150">Scroll Event</p><br>
+                        <p class="scroll_text" data-aos="flip-up" data-aos-delay="200">Scroll Event</p><br>
+                        <p class="scroll_text" data-aos="zoom-in" data-aos-delay="250">Scroll Event</p><br>
+                        <p class="scroll_text" data-aos="zoom-out" data-aos-delay="300">Scroll Event</p><br>
+                    </div>
+                    <!-- 기능2 : 메뉴버튼 -->
+                    <div id="func_contain_2" class="func_contain">
+                        <!-- 버튼1 -->
+                        <ul class="func_button01 menu_margin">
+                            <li><span>1</span></li>
+                            <li><span>2</span></li>
+                            <li><span>3</span></li>
+                        </ul><br>
+                        <!-- 버튼2 -->
+                        <nav class="func_button02 menu_margin">
+                            <a href="#"><span data-hover="menuButton">menuButton</span></a>
+                            <a href="#"><span data-hover="menuButton">menuButton</span></a>
+                            <a href="#"><span data-hover="menuButton">menuButton</span></a>
+                        </nav>
+                        <!-- 버튼3 -->
+                        <nav class="func_button03 menu_margin">
+                            <a href="#">menuButton</a>
+                            <a href="#">menuButton</a>
+                            <a href="#">menuButton</a>
+                        </nav>
+                        <!-- 버튼4 -->
+                        <nav class="func_button04 menu_margin">
+                            <a href="#" data-hover="menuButton">menuButton</a>
+                            <a href="#" data-hover="menuButton">menuButton</a>
+                            <a href="#" data-hover="menuButton">menuButton</a>
+                        </nav>
+                    </div>
+                    <!-- 기능3 : 슬라이드 -->
+                    <div id="func_contain_3" class="func_contain">
+                        <div class="bg_gray">
+                            <div id="img_slider2">
+                                <div id="slider-div2">
+                                    <div><img class="images" src="./images/slide_img_01.jpg" /></div>
+                                    <div><img class="images" src="./images/slide_img_02.jpg" /></div>
+                                    <div><img class="images" src="./images/slide_img_03.jpg" /></div>
+                                    <div><img class="images" src="./images/slide_img_04.jpg" /></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <p>options</p>
+                            <p>auto or non-auto</p>
+                            <p>auto slide speed</p>
+                            <p>prev or next buttons</p>
+                            <p>dots under the slide</p>
+                        </div>
+                    </div>
+                    <!-- 기능4 -->
+            </section>
+        </div>
+        <footer id="footer">
+            <div class="email">
+                홈페이지 개발 문의 : leik24@naver.com
+            </div>
+            <div class="copyrights">
+                Copyright(c) 2020 이동진.All rights reseved.
+            </div>
+        </footer>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick_option.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    </body>
+</html>
